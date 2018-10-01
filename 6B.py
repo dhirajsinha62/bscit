@@ -1,0 +1,8 @@
+file=open('text2.txt','a')
+file.write('Hello World\n') 
+file.write('This is our new text file\n')
+file.write('and this is another line.\n') 
+file.write('Why? Because we can.\n')
+file.close()
+f2=open('text2.txt')
+print(f2.read())
